@@ -35,7 +35,7 @@ class App extends Component {
           return (
             <div key={monster.id  }>
               <h1>{monster.name}</h1>
-              <h1>{monster.name}</h1>
+              <h1>{monster.id}</h1>
             </div>
             )
         })}

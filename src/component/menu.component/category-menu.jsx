@@ -3,7 +3,7 @@ import CategoryItem from '../categories.component/categories-component'
 
 
 const CategoryMenu = ({category}) => {
-
+    
     return (
         category.map((category) => {
             return (

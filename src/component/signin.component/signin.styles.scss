@@ -1,0 +1,28 @@
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 3%;
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content:space-between;
+}
